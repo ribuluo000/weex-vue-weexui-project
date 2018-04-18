@@ -17,7 +17,8 @@ const buildPlugins = () => {
     let keys = [];
     const plugins = require(pluginConfigPath).web;
     if (plugins && plugins.length > 0) {
-        for (let plugin of plugins) {
+        for (let plugin of
+            plugins) {
             let camelCaseKey = toLowerCamelCase(plugin.name);
             content += `import ${camelCaseKey} from '${plugin.name}';\n`;
             keys.push(camelCaseKey);

@@ -33,7 +33,7 @@ module.exports = {
         'no-debugger' : process.env.NODE_ENV === 'production' ? 'error' : 'off',
         "semi" : [ 2, "always" ],//语句强制分号结尾
         "semi-spacing" : [ 0, { "before" : false, "after" : true } ],//分号前后空格
-        "key-spacing": [0, { "beforeColon": true, "afterColon": true }],//对象字面量中冒号的前后空格
-        "indent": [2, 4],//缩进风格
+        "key-spacing" : [ 0, { "beforeColon" : true, "afterColon" : true } ],//对象字面量中冒号的前后空格
+        "indent" : [ 2, 4 ],//缩进风格
     }
 }

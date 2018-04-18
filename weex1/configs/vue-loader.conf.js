@@ -7,15 +7,15 @@ const sourceMapEnabled = isProduction
 
 module.exports = (options) => {
     return {
-        loaders: utils.cssLoaders({
+        loaders : utils.cssLoaders({
             // sourceMap: use sourcemao or not.
-            sourceMap: options && sourceMapEnabled,
+            sourceMap : options && sourceMapEnabled,
             // useVue: use vue-style-loader or not
-            useVue: options && options.useVue,
+            useVue : options && options.useVue,
             // usePostCSS: use postcss to compile styles.
-            usePostCSS: options && options.usePostCSS
+            usePostCSS : options && options.usePostCSS
         }),
-        cssSourceMap: sourceMapEnabled,
-        cacheBusting: config.dev.cacheBusting
+        cssSourceMap : sourceMapEnabled,
+        cacheBusting : config.dev.cacheBusting
     };
 };
