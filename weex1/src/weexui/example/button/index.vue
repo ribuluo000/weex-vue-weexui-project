@@ -12,10 +12,11 @@
                             type="white"
                             @wxcButtonClicked="wxcButtonClicked"></wxc-button>
                 <text class="button-text">white && disabled</text>
-                <wxc-button text="确定"
-                            type="white"
-                            :disabled="true"
-                            @wxcButtonClicked="wxcButtonClicked"></wxc-button>
+                <wxc-button
+                        text="确定"
+                        type="white"
+                        :disabled="true"
+                        @wxcButtonClicked="wxcButtonClicked"></wxc-button>
                 <text class="button-text">blue</text>
                 <wxc-button text="确定"
                             type="blue"
