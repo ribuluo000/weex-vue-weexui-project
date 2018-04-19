@@ -46,4 +46,4 @@ module.exports = {
         "linebreak-style": [0, "windows"],//换行风格
         "no-multi-spaces": 0,//不能用多余的空格
     }
-}
+};
