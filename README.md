@@ -1,5 +1,26 @@
 ## Commands
 
+
+
+使用说明：
+cd weex1
+### npm start	//web
+
+### npm run android		//android
+### npm run ios		//ios
+---
+ios:
+
+Code signing is required for product type 'Application' in SDK 'iOS5.1'
+
+解决方案：
+https://stackoverflow.com/questions/9899920/code-signing-is-required-for-product-type-application-in-sdk-ios5-1
+
+
+---
+
+
+
 ### npm start
 
 Starts the development server for you to preview your weex page on browser.
@@ -37,14 +58,3 @@ Packaging html5 project into `web/build` folder.
 
 Starts the test runner.
 
-
----
-
-
-Code signing is required for product type 'Application' in SDK 'iOS5.1'
-
-解决方案：
-https://stackoverflow.com/questions/9899920/code-signing-is-required-for-product-type-application-in-sdk-ios5-1
-
-
----
