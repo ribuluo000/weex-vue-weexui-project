@@ -2,3 +2,6 @@
 node_modules
 .temp
 dist
+/platforms/android/build/
+/platforms/android/app/build/
+/platforms/android/.gradle/
